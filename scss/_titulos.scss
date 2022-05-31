@@ -1,0 +1,35 @@
+@import "variables";
+
+.titulo-home {
+    color: $color-secundario;
+    font-size: 3em;
+}
+
+.titulo-sobre-mi{
+    text-align: center;
+    font-size: 2em;
+}
+
+.titulo-1-sobre-mi{
+    color: $color-secundario;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.titulo-2-sobre-mi{
+    color: $color-secundario;
+    font-size: 2em;
+}
+
+.titulo-skills{
+    font-size: 2em;
+}
+
+.titulo-portfolio{
+    font-size: 2em;
+}
+
+.titulo-contacto{
+    font-size: 2em;
+    color: $color-principal;
+}

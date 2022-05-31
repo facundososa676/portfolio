@@ -1,0 +1,27 @@
+@import "variables";
+
+.botones{
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.boton-sobre-mi{
+    color: $color-principal;
+    background-color: $color-secundario;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 500px;
+}
+
+.boton-contacto {
+    background-color: $color-boton;
+    color: $color-principal;
+    width: 300px;
+    margin-top: 40px;
+}
