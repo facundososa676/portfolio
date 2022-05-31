@@ -1,6 +1,5 @@
 #home {
-  margin-top: 80px;
-  margin-bottom: 80px; }
+  margin-top: 80px; }
 
 .seccion-1 {
   display: flex;
@@ -40,14 +39,18 @@
   font-size: 2em; }
 
 .titulo-skills {
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 80px; }
 
 .titulo-portfolio {
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: center; }
 
 .titulo-contacto {
   font-size: 2em;
-  color: #F5FDFF; }
+  color: #F5FDFF;
+  text-align: center; }
 
 /* PALETA DE COLORES */
 .botones {
@@ -89,7 +92,8 @@ body {
   margin-right: 80px; }
 
 #sobre-mi {
-  margin-bottom: 40px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 .seccion-2 {
   display: flex;
@@ -111,9 +115,7 @@ body {
 
 .iconos-skills {
   margin-left: 28px;
-  margin-right: 28px;
-  margin-top: 80px;
-  margin-bottom: 80px; }
+  margin-right: 28px; }
 
 .iconos-footer {
   margin-left: 20px;
@@ -123,7 +125,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-top: 80px; }
 
 #portfolio {
   display: flex;
@@ -132,7 +135,8 @@ body {
   align-items: center;
   background-image: url(../img/bg-portfolio.png);
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  padding-top: 80px; }
 
 .portfolio-container {
   display: grid;
@@ -159,9 +163,9 @@ body {
 
 #footer {
   background-color: #0B4A41;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px; }

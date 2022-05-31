@@ -1,8 +1,8 @@
 #footer {
     background-color: #0B4A41;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
 
     padding-top: 40px;
