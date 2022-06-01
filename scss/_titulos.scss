@@ -1,7 +1,9 @@
+/* ========== TITULOS ========== */
+
 @import "variables";
 
 .titulo-home {
-    color: $color-secundario;
+    color: $color-textos-1;
     font-size: 3em;
 }
 
@@ -10,14 +12,14 @@
     font-size: 2em;
 }
 
-.titulo-1-sobre-mi{
-    color: $color-secundario;
+.titulo-sobre-mi-1{
+    color: $color-principal;
     font-weight: 100;
     font-size: 20px;
 }
 
-.titulo-2-sobre-mi{
-    color: $color-secundario;
+.titulo-sobre-mi-2{
+    color: $color-principal;
     font-size: 2em;
 }
 

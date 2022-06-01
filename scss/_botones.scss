@@ -1,3 +1,5 @@
+/* ========== BOTONES ========== */
+
 @import "variables";
 
 .botones{
@@ -10,7 +12,7 @@
 
 .boton-sobre-mi{
     color: $color-principal;
-    background-color: $color-secundario;
+    background-color: $color-terciario;
     padding: 20px 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -20,7 +22,7 @@
 }
 
 .boton-contacto {
-    background-color: $color-boton;
+    background-color: $color-terciario;
     color: $color-principal;
     width: 300px;
     margin-top: 40px;
