@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
 
+    <!-- Link a mis animaciones -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Link a bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -27,9 +31,9 @@
 
 <body>
     
-    <header>
+    <header id="header">
 
-        <nav class="navbar navbar-expand-lg bg-light bg-gradient navbar-light">
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient navbar-dark">
             <div class="container-fluid">
                 <div>
                     <a class="navbar-brand" href="#"><img src="https://dummyimage.com/64x64/000/fff" alt="logo.png"></a>
@@ -43,16 +47,16 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex me-0">
                   <li class="nav-item">
-                    <a class="nav-link active"  href="#sobre-mi">Sobre mí</a>
+                    <a class="nav-link"  href="#sobre-mi">Sobre mí</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active"  href="#skills">Skills</a>
+                    <a class="nav-link"  href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active"  href="#portfolio">Portfolio</a>
+                    <a class="nav-link"  href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active"  href="#contacto">Contacto</a>
+                    <a class="nav-link"  href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -67,19 +71,19 @@
         <section id="home">
 
             <div class="seccion-1">
-                <div class="img">
-                    <img src="https://dummyimage.com/400x500/000/fff" alt="facundo.jpeg">
+                <div class="img animate__animated animate__fadeInLeft animate__slow">
+                    <img src="https://dummyimage.com/380x420/000/fff" alt="facundo.jpeg">
                 </div>
                 
                 <div class="info">
-                    <h4 class="titulo-home">HOLA, ¡SOY FACUNDO SOSA!</h4>
-                    <p class="textos-home">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore hic iure beatae alias sed nisi doloremque rem expedita, voluptates voluptatem eaque consequatur blanditiis cum laborum?</p>
+                    <h4 class="titulo-home animate__animated animate__fadeInLeft animate__slow">HOLA, ¡SOY FACUNDO SOSA!</h4>
+                    <p class="textos-home animate__animated animate__fadeInLeft animate__slow">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore hic iure beatae alias sed nisi doloremque rem expedita, voluptates voluptatem eaque consequatur blanditiis cum laborum?</p>
                 </div>
             </div>
 
         </section>
 
-        <section id="sobre-mi">
+        <section id="sobre-mi" class="animate__animated animate__fadeIn animate__slow"> 
 
             <!-- <h6 class="titulo-sobre-mi">Sobre mí</h6> -->
 

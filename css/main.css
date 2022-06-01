@@ -11,12 +11,14 @@ body {
 
 .img {
   margin-left: 80px;
-  margin-right: 80px; }
+  margin-right: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
 
 /* ========== SECCIONES ========== */
 /* HOME */
 #home {
-  padding-top: 80px; }
+  padding-top: 80px;
+  margin-bottom: 80px; }
 
 .seccion-1 {
   display: flex;
@@ -65,7 +67,7 @@ body {
   margin-top: 40px; }
 
 .portfolio-items-containers {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
 
 /* CONTACTO */
 #contacto {
@@ -98,7 +100,8 @@ body {
 
 .texto-sobre-mi {
   color: #F5FDFF;
-  font-size: 20px; }
+  font-size: 20px;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .texto-footer {
   color: #F5FDFF;
@@ -108,20 +111,19 @@ body {
 /* ========== TITULOS ========== */
 .titulo-home {
   color: #0EB29A;
-  font-size: 3em; }
-
-.titulo-sobre-mi {
-  text-align: center;
-  font-size: 2em; }
+  font-size: 3em;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .titulo-sobre-mi-1 {
   color: #F5FDFF;
   font-weight: 100;
-  font-size: 20px; }
+  font-size: 20px;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .titulo-sobre-mi-2 {
   color: #F5FDFF;
-  font-size: 2em; }
+  font-size: 2em;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .titulo-skills {
   font-size: 2em;
@@ -135,7 +137,8 @@ body {
 .titulo-contacto {
   font-size: 2em;
   color: #F5FDFF;
-  text-align: center; }
+  text-align: center;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 /* ========== BOTONES ========== */
 .botones {
@@ -143,7 +146,8 @@ body {
   text-decoration: none;
   text-align: center;
   font-size: 24px;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
 
 .boton-sobre-mi {
   color: #F5FDFF;
@@ -183,3 +187,8 @@ body {
 .iconos-footer {
   margin-left: 20px;
   margin-right: 20px; }
+
+/* ========== ANIMACIONES ========= */
+.animate__animated animate__fadeIn {
+  animation-timing-function: ease-in-out;
+  animation-duration: 6s; }
