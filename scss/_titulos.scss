@@ -4,7 +4,7 @@
 
 .titulo-home {
     color: $color-textos-1;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
     
 }
@@ -14,18 +14,21 @@
     font-weight: 100;
     font-size: 20px;
     text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
+    
+    margin-top: 40px;
 }
 
 .titulo-sobre-mi-2{
     color: $color-principal;
-    font-size: 2em;
+    font-size: 28px;
     text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
+
 }
 
 .titulo-skills{
     font-size: 2em;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 
 }
 

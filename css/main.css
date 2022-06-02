@@ -3,31 +3,32 @@ body {
   background-color: #F5FDFF;
   font-family: 'Quicksand', sans-serif; }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 80px;
-  margin-right: 80px; }
-
 .img {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 280px;
+  height: 270px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+
+.bordes {
+  border-radius: 8px; }
 
 /* ========== SECCIONES ========== */
 /* HOME */
 #home {
-  padding-top: 80px;
-  margin-bottom: 80px; }
-
-.seccion-1 {
   display: flex;
-  flex-direction: row; }
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  margin-bottom: 140px; }
+
+.info-1 {
+  margin-left: 40px;
+  margin-right: 40px; }
 
 /* SOBRE MI */
 #sobre-mi {
-  padding-top: 160px;
+  padding-top: 20px;
   padding-bottom: 160px;
   background-image: url(../img/bg-sobre-mi.png);
   background-position: center;
@@ -36,7 +37,16 @@ body {
 
 .seccion-2 {
   display: flex;
-  flex-direction: row; }
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center; }
+
+.info-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 /* SKILLS */
 #skills {
@@ -46,6 +56,15 @@ body {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 40px; }
+
+.iconos-skills-container {
+  display: flex;
+  flex-direction: column; }
+
+.iconos-skills {
+  margin: 20px;
+  width: 88px;
+  height: 88px; }
 
 /* PORTFOLIO */
 #portfolio {
@@ -57,13 +76,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px; }
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: 438px 438px 438px;
-  grid-template-rows: 220px 220px;
+  grid-template-columns: 300px;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
   margin-top: 40px; }
@@ -92,7 +111,8 @@ body {
 #footer {
   background-color: #0B4A41;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
   padding-top: 40px;
@@ -101,12 +121,12 @@ body {
 /* ========== TEXTOS ========== */
 .textos-home {
   color: #0EB29A;
-  font-size: 2em;
+  font-size: 20px;
   font-weight: 200; }
 
 .texto-sobre-mi {
   color: #F5FDFF;
-  font-size: 20px;
+  font-size: 16px;
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .texto-footer {
@@ -126,24 +146,25 @@ body {
 /* ========== TITULOS ========== */
 .titulo-home {
   color: #0EB29A;
-  font-size: 3em;
+  font-size: 2em;
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .titulo-sobre-mi-1 {
   color: #F5FDFF;
   font-weight: 100;
   font-size: 20px;
-  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43);
+  margin-top: 40px; }
 
 .titulo-sobre-mi-2 {
   color: #F5FDFF;
-  font-size: 2em;
+  font-size: 28px;
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .titulo-skills {
   font-size: 2em;
   text-align: center;
-  padding-bottom: 80px; }
+  padding-bottom: 40px; }
 
 .titulo-portfolio {
   font-size: 2em;
@@ -173,20 +194,24 @@ body {
     border: solid;
     text-shadow: none; }
 
+.botones-sobre-mi {
+  display: flex;
+  justify-content: center; }
+
 .boton-sobre-mi {
   color: #F5FDFF;
   background-color: #0B4A41;
   padding: 20px 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 150px;
-  margin-right: 150px;
-  width: 500px; }
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 280px; }
 
 .boton-contacto {
   background-color: #0B4A41;
   color: #F5FDFF;
-  width: 300px;
+  width: 200px;
   margin-top: 40px; }
 
 /* ========== ICONOS ========== */
@@ -209,10 +234,12 @@ body {
   margin-right: 28px; }
 
 .iconos-footer {
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin-left: 10px;
+  margin-right: 10px; }
 
 /* ========== ANIMACIONES ========= */
 .animate__animated animate__fadeIn {
   animation-timing-function: ease-in-out;
   animation-duration: 6s; }
+
+/* @import "media-queries" */

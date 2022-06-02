@@ -1,1 +1,268 @@
 /* ========== MEDIA QUERIES ========== */
+
+/* ========== SECCIONES ========== */
+
+@import "variables";
+
+/* HOME */
+
+#home{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 160px;
+    margin-bottom: 120px;
+}
+
+
+
+
+/* SOBRE MI */
+
+#sobre-mi{
+    padding-top: 180px;
+    padding-bottom: 160px;
+
+    background-image: url(../img/bg-sobre-mi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion-2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+/* SKILLS */
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+
+ /* PORTFOLIO */
+
+ #portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/bg-portfolio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 438px 438px 438px;
+    grid-template-rows: 220px 220px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    
+
+    margin-top: 40px;
+}
+
+.portfolio-items-containers{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: $color-principal;
+    transition: all ease-in-out 500ms;
+
+        &:hover {
+
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        }
+}
+
+
+
+
+/* CONTACTO */
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-secundario;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container-formulario {
+    margin-top: 40px;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    background-color: $color-terciario;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* ========== BOTONES ========== */
+
+@import "variables";
+
+.botones{
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: -1px 1px 3px rgba($color: #000000, $alpha: 0.80);
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all ease-in-out 300ms;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+        &:hover {
+            background-color: $color-principal;
+            color: $color-terciario;
+            border: solid;
+            text-shadow: none;
+        }
+}
+
+    
+
+.boton-sobre-mi{
+    color: $color-principal;
+    background-color: $color-terciario;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 500px;
+}
+
+.boton-contacto {
+    background-color: $color-terciario;
+    color: $color-principal;
+    width: 300px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* ========== TEXTOS ========== */
+
+@import "variables";
+
+.textos-home{
+    color: $color-textos-1;
+    font-size: 1em;
+    font-weight: 200;
+    
+}
+
+.texto-sobre-mi{
+    color: $color-principal;
+    font-size: 20px;
+    text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
+}
+
+.texto-footer {
+    color: $color-principal;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.texto-footer-2 {
+    
+    font-weight: 100;
+    font-style: oblique;
+    transition: all ease-in-out 3s;
+
+        &:hover {
+            text-decoration: underline;
+            color: $color-principal;  
+        }
+}
+
+
+
+/* ========== TITULOS ========== */
+
+@import "variables";
+
+.titulo-home {
+    color: $color-textos-1;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
+    
+}
+
+.titulo-sobre-mi-1{
+    color: $color-principal;
+    font-weight: 100;
+    font-size: 20px;
+    text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
+}
+
+.titulo-sobre-mi-2{
+    color: $color-principal;
+    font-size: 2em;
+    text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.43);
+}
+
+.titulo-skills{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+.titulo-portfolio{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-contacto{
+    font-size: 2em;
+    color: $color-principal;
+    text-align: center;
+    text-shadow: -1px 1px 2px rgba($color: #000000, $alpha: 0.70);
+}

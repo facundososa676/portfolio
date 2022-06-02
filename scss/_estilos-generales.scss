@@ -7,17 +7,15 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
 .img{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    height: 270px;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bordes {
+    border-radius: 8px;
 }
