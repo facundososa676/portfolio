@@ -1,6 +1,7 @@
 /* ========== ESTILOS GENERALES ========== */
 body {
-  background-color: #F5FDFF; }
+  background-color: #F5FDFF;
+  font-family: 'Quicksand', sans-serif; }
 
 .info {
   display: flex;
@@ -44,7 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 40px; }
 
 /* PORTFOLIO */
 #portfolio {
@@ -56,18 +57,23 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 40px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 350px 350px;
-  grid-row-gap: 40px;
-  grid-column-gap: 40px;
+  grid-template-columns: 438px 438px 438px;
+  grid-template-rows: 220px 220px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
   margin-top: 40px; }
 
 .portfolio-items-containers {
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: #F5FDFF;
+  transition: all ease-in-out 500ms; }
+  .portfolio-items-containers:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; }
 
 /* CONTACTO */
 #contacto {
@@ -105,8 +111,17 @@ body {
 
 .texto-footer {
   color: #F5FDFF;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 100;
   text-decoration: none; }
+
+.texto-footer-2 {
+  font-weight: 100;
+  font-style: oblique;
+  transition: all ease-in-out 3s; }
+  .texto-footer-2:hover {
+    text-decoration: underline;
+    color: #F5FDFF; }
 
 /* ========== TITULOS ========== */
 .titulo-home {
@@ -132,22 +147,31 @@ body {
 
 .titulo-portfolio {
   font-size: 2em;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 40px; }
 
 .titulo-contacto {
   font-size: 2em;
   color: #F5FDFF;
   text-align: center;
-  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.7); }
 
 /* ========== BOTONES ========== */
 .botones {
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.8);
   font-size: 24px;
+  font-weight: 500;
   padding: 10px 20px;
+  transition: all ease-in-out 300ms;
   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; }
+  .botones:hover {
+    background-color: #F5FDFF;
+    color: #0B4A41;
+    border: solid;
+    text-shadow: none; }
 
 .boton-sobre-mi {
   color: #F5FDFF;

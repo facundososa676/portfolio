@@ -6,10 +6,20 @@
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
+    text-shadow: -1px 1px 3px rgba($color: #000000, $alpha: 0.80);
     font-size: 24px;
+    font-weight: 500;
     padding: 10px 20px;
+    transition: all ease-in-out 300ms;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset, rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+        &:hover {
+            background-color: $color-principal;
+            color: $color-terciario;
+            border: solid;
+            text-shadow: none;
+        }
 }
 
     
