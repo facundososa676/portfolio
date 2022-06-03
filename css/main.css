@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 120px;
-  margin-bottom: 140px; }
+  margin-bottom: 60px; }
 
 .info-1 {
   margin-left: 40px;
@@ -129,10 +129,14 @@ body {
   font-size: 20px;
   font-weight: 200; }
 
+.texto-resaltado {
+  font-weight: bold; }
+
 .texto-sobre-mi {
   color: #F5FDFF;
   font-size: 16px;
-  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43);
+  margin: 2px; }
 
 .texto-footer {
   color: #F5FDFF;
@@ -204,7 +208,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: min-content;
+  width: 240px;
   justify-self: center;
   align-self: center;
   margin-top: 40px; }
@@ -217,9 +221,6 @@ body {
   background-color: #0EB29A;
   padding: 16px 24px;
   text-shadow: none;
-  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
-    
- */
   display: flex;
   flex-wrap: wrap; }
 
@@ -251,7 +252,7 @@ body {
 
 .iconos-sobre-mi {
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 10px; }
 
 .iconos-skils-container {
@@ -290,6 +291,8 @@ body {
   .img {
     width: 300px;
     height: 320px; }
+  .boton-home-container {
+    width: max-content; }
   .titulo-home {
     font-size: 40px; }
   .textos-home {
@@ -333,14 +336,20 @@ body {
   .portfolio-container {
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 150px 150px; }
+  .seccion-2 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    flex-direction: row; }
+  .info-2 {
+    padding-top: 40px;
+    margin-left: 80px;
+    margin-right: 40px; }
   .titulo-sobre-mi-1 {
     font-size: 28px; }
   .titulo-sobre-mi-2 {
     font-size: 36px; }
   .texto-sobre-mi {
-    font-size: 20px; }
-  .iconos-sobre-mi {
-    margin-left: 20px; } }
+    font-size: 20px; } }
 
 @media screen and (min-width: 1440px) {
   .img {
@@ -348,18 +357,11 @@ body {
     height: 440px;
     margin-left: 40px;
     margin-right: 80px; }
-  .seccion-2 {
-    padding-top: 100px;
-    padding-bottom: 120px;
-    flex-direction: row; }
-  .info-2 {
-    padding-top: 80px;
-    margin-left: 80px;
-    margin-right: 40px; }
   .texto-sobre-mi {
     margin-top: 20px; }
   .iconos-sobre-mi {
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-left: 20px; }
   .boton-sobre-mi {
     margin-top: 40px;
     width: 500px; }

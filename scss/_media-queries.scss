@@ -15,6 +15,8 @@
 }
 
 @media screen and (min-width: 375px) {
+    
+
     .boton-contacto {
         width: 240px;
     }
@@ -36,6 +38,10 @@
     .img {
         width: 300px;
         height: 320px;
+    }
+
+    .boton-home-container {
+        width: max-content;
     }
 
     .titulo-home {
@@ -119,6 +125,18 @@
         grid-template-rows: 150px 150px;
     }
 
+    .seccion-2 {
+        padding-top: 100px;
+        padding-bottom: 120px;
+        flex-direction: row;
+    }
+
+    .info-2 {
+        padding-top: 40px ;
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
     .titulo-sobre-mi-1 {
         font-size: 28px;
     }
@@ -131,9 +149,6 @@
         font-size: 20px;
     }
 
-    .iconos-sobre-mi {
-        margin-left: 20px;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -145,18 +160,6 @@
         margin-right: 80px;
     }
 
-    .seccion-2 {
-        padding-top: 100px;
-        padding-bottom: 120px;
-        flex-direction: row;
-    }
-
-    .info-2 {
-        padding-top: 80px ;
-        margin-left: 80px;
-        margin-right: 40px;
-    }
-
     .texto-sobre-mi {
         margin-top: 20px;
     }
@@ -164,6 +167,7 @@
 
     .iconos-sobre-mi{
         margin-top: 20px;
+        margin-left: 20px;
     }
 
     .boton-sobre-mi {
