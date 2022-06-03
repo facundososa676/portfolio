@@ -20,7 +20,11 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 120px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  background-image: url(../img/bg-home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .info-1 {
   margin-left: 40px;
@@ -135,8 +139,7 @@ body {
 .texto-sobre-mi {
   color: #F5FDFF;
   font-size: 16px;
-  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43);
-  margin: 2px; }
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43); }
 
 .texto-footer {
   color: #F5FDFF;
@@ -158,6 +161,9 @@ body {
   font-size: 2em;
   text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.43);
   margin-bottom: 20px; }
+
+.titulo-sobre-mi-container {
+  margin-bottom: 10px; }
 
 .titulo-sobre-mi-1 {
   color: #F5FDFF;
@@ -308,6 +314,8 @@ body {
   .img {
     width: 340px;
     height: 360px; }
+  #home {
+    background-image: none; }
   .titulo-home {
     font-size: 48px; }
   .textos-home {
